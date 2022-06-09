@@ -1,0 +1,25 @@
+artifact_path: model
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 3.3.2
+    model_class: lightgbm.basic.Booster
+  python_function:
+    data: model.lgb
+    env: conda.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.9.12
+mlflow_version: 1.26.1
+model_uuid: 28a6a5ec9c53424cbb64aad45ff4f931
+run_id: 0ea3c5ea00384193ba2db0a96d8fe62b
+signature:
+  inputs: '[{"name": "geo_lat", "type": "double"}, {"name": "geo_lon", "type": "double"},
+    {"name": "building_type", "type": "long"}, {"name": "level", "type": "long"},
+    {"name": "levels", "type": "long"}, {"name": "area", "type": "double"}, {"name":
+    "kitchen_area", "type": "double"}, {"name": "object_type", "type": "long"}, {"name":
+    "year", "type": "long"}, {"name": "month", "type": "long"}, {"name": "level_to_levels",
+    "type": "double"}, {"name": "area_to_rooms", "type": "double"}, {"name": "cafes_0.012",
+    "type": "long"}, {"name": "cafes_0.08", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-06-08 13:28:18.461431'

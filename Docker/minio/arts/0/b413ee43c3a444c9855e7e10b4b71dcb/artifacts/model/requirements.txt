@@ -1,0 +1,5 @@
+mlflow
+lightgbm==3.3.2
+pandas==1.4.2
+psutil==5.9.1
+typing-extensions==4.2.0

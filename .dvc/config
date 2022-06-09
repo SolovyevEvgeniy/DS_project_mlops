@@ -1,0 +1,9 @@
+[core]
+    remote = remote
+    autostage = true
+['remote "remote"']
+    url = s3://mlproject
+    endpointurl = https://storage.yandexcloud.net
+    access_key_id = YCAJERiALWNddsC50H2vIgmPV
+    secret_access_key = YCPvRhIuM2KDlaPXDsMI4MFKngzWW7NyLVPg_oGc
+

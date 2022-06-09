@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/evgeniy.solovev/Desktop/pandas/MLOPS/mlopsproject/mlruns/1/fbce2e2634e346eeb72ed205cd40f272/artifacts
+end_time: 1654674673760
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: fbce2e2634e346eeb72ed205cd40f272
+run_uuid: fbce2e2634e346eeb72ed205cd40f272
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1654674652083
+status: 3
+tags: []
+user_id: evgeniy.solovev

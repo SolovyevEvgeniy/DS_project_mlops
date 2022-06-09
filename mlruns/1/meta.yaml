@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/evgeniy.solovev/Desktop/pandas/MLOPS/mlopsproject/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: light_gbm
